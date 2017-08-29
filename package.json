@@ -1,0 +1,31 @@
+{
+  "name": "js-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "bs58": "~2.0.0",
+    "crypto-browserify": "^3.11.0",
+    "lodash": "^4.17.4",
+    "qs": "^6.3.1",
+    "query-string": "^4.3.2",
+    "sha256": "^0.2.0",
+    "sjcl": "git+https://github.com/stellar/sjcl.git",
+    "sjcl-scrypt": "git+https://github.com/stellar/sjcl-scrypt.git",
+    "tweetnacl": "^0.11.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "chai-things": "^0.2.0",
+    "js-sdk": "git+http://bitbucket.attic.pw/scm/hum/js-sdk.git",
+    "mocha": "^3.2.0",
+    "uuid-random": "^1.0.6"
+  },
+  "scripts": {
+    "test": "mocha --timeout 15000"
+  },
+  "author": "",
+  "license": "ISC"
+}
