@@ -19,7 +19,7 @@
     "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
     "chai-things": "^0.2.0",
-    "js-sdk": "git+http://bitbucket.attic.pw/scm/hum/js-sdk.git",
+    "js-sdk": "git+http://github.com/humaniq/js-sdk.git",
     "mocha": "^3.2.0",
     "uuid-random": "^1.0.6"
   },
